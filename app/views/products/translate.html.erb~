@@ -1,0 +1,16 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+</head>
+<body>
+<script type="text/javascript">
+  google.load("elements", "1", {
+  packages: "transliterate"
+  });
+  google.language.transliterate(["Namaste"], "en", "hi", function(result) {
+  	alert(result);
+  });	
+</script>
+</body>
+</html>
